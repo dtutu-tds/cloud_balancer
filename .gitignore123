@@ -1,0 +1,33 @@
+# Terraform файлы
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# SSH ключи
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.bak
+*~
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS файлы
+.DS_Store
+Thumbs.db
